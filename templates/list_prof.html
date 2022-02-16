@@ -5,15 +5,15 @@
     <title>Список профессий</title>
 </head>
 <body>
-    {% if {{lst}} == ol %}
+    {% if lst == ol %}
         <ol>
-            {% for i in {{list_prof}} %}
+            {% for i in list_prof %}
                 <li>{{i}}</li>
             {% endfor %}
         </ol>
     {% else %}
         <ul>
-            {% for i in {{list_prof}} %}
+            {% for i in list_prof %}
                 <li>{{i}}</li>
             {% endfor %}
         </ul>
