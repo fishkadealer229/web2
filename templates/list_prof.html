@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Список профессий</title>
+</head>
+<body>
+    {% if {{lst}} == ol %}
+        <ol>
+            {% for i in {{list_prof}} %}
+                <li>{{i}}</li>
+            {% endfor %}
+        </ol>
+    {% else %}
+        <ul>
+            {% for i in {{list_prof}} %}
+                <li>{{i}}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

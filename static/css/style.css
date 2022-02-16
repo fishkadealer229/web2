@@ -1,0 +1,40 @@
+h1 {
+    color: #ff0000
+}
+.alert{
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem
+}
+
+.d1{
+    color: #cfe2ff;
+    background-color: #ff0000;
+    border-color: #b6d4fe
+}
+
+.d2{
+    color: #ff0000;
+    background-color: #8b4513;
+    border-color: #b6d4fe
+}
+
+.d3{
+    color: #8b4513;
+    background-color: #c71585;
+    border-color: #b6d4fe
+}
+
+.d4{
+    color: #c71585;
+    background-color: #4b0082;
+    border-color: #b6d4fe
+}
+
+.d5{
+    color: #4b0082;
+    background-color: #6b8e23;
+    border-color: #b6d4fe
+}
